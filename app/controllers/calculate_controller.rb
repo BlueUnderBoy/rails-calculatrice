@@ -3,10 +3,6 @@ class CalculateController < ApplicationController
     render({:template => "calculate_templates/homepage"})
   end
 
-  def square 
-    render({:template => "calculate_templates/homepage"})
-  end
-
   def square_root 
     render({:template => "calculate_templates/square_root"})
   end

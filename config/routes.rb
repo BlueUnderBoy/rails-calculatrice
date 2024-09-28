@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get("/", {:controller => "calculate", :action=> "home"})
-  get("/square/new", {:controller => "calculate", :action=> "square"})
+  get("/square/new", {:controller => "calculate", :action=> "home"})
   get("/square_root/new", {:controller => "calculate", :action=> "square_root"})
   get("/random/new", {:controller => "calculate", :action=> "random"})
   get("/payment/new", {:controller => "calculate", :action=> "payment"})
