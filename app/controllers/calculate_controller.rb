@@ -21,7 +21,7 @@ class CalculateController < ApplicationController
     render({:template => "calculate_templates/square_results"})
   end
 
-  def square_root_results
+  def squareroot_results
     @num = params.fetch("number").to_f
     @nsr = Math.sqrt(@num)
     render({:template => "calculate_templates/squareroot_results"})
